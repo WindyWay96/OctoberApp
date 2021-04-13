@@ -22,7 +22,7 @@ const main = async () => {
   }
   tries -= 1
   if (phoneNumber !== '') {
-    console.log(phoneNumber)
+    console.log(`The company's phone number is: ${phoneNumber}`)
   } else if (phoneNumber === '' && emptyInfo.length > 0) {
     console.log(`Cannot find phone number, try adding more info, missing ${emptyInfo}`)
     main()
